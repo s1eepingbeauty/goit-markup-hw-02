@@ -104,7 +104,6 @@ body {
 }
 
 .description {
-    font-weight: 400;
     line-height: 1.7em;
     color: var(--desc-color);
 }
@@ -134,7 +133,6 @@ body {
 }
 
 .team-card-profession {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19em;
     color: var(--desc-color);
@@ -148,13 +146,11 @@ body {
 }
 
 .footer-address-link {
-    font-weight: 400;
     line-height: 1.7em;
     color: var(--text-light-theme-color);
 }
 .footer-mail-link,
 .footer-tel-link {
-    font-weight: 400;
     line-height: 1.7em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -162,4 +158,42 @@ body {
 .social-links-title {
     font-weight: 700;
     color: var(--text-light-theme-color);
+}
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: var(--text-dark-theme-color);
+    background: #f5f4fa;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: var(--accent-color);
+    color: var(--text-light-theme-color);
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    color: var(--text-dark-theme-color);
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.9em;
+    color: var(--desc-color);
+}
+
+.project-description {
+    font-size: 18px;
+    line-height: 1.55em;
+    color: var(--text-light-theme-color);
+    background: var(--accent-color);
 }
