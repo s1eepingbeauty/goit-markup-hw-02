@@ -49,16 +49,21 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19em;
     color: #000000;
 }
 
-.navigation-list-link,
-.header-mail-link,
-.header-tel-link {
+.navigation-list-link {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--text-dark-theme-color);
+}
+.header-mail-link,
+.header-tel-link {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--desc-color);
 }
 
 .navigation-list-link:hover,
@@ -99,6 +104,7 @@ body {
 /* -----ОСОБЕННОСТИ----- */
 
 .features-item-title {
+    font-size: 14px;
     font-weight: 700;
     color: var(--text-dark-theme-color);
 }
